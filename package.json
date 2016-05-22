@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
-    "jsdom": "^9.1.0"
+    "jsdom": "^9.1.0",
+    "textangular": "^1.5.1"
   }
 }
