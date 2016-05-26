@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- the reason for everything. Clean styles-->
+        <link rel="stylesheet" href="css/font-awesome.min.css"><!-- Styles for right controls-->
+        <script type="text/javascript" src="vendor/angular/angular.js"></script>
+
+        <script type="text/javascript" src="vendor/textAngular/dist/textAngular-sanitize.js"></script>
+        
+        <script type="text/javascript" src="vendor/textAngular/dist/textAngular.js"></script>
+        
+        <script type="text/javascript" src="vendor/textAngular/dist/textAngularSetup.js"></script>
+        
+        <!--script type="text/javascript" src="/vendor/textAngular/dist/textAngular-rangy.min.js"></script-->
+        <script type="text/javascript" src="js/rangy-core.js"></script>
+        <script type="text/javascript" src="js/rangy-selectionsaverestore.js"></script>
+
+        <script src="js/script.js"></script>
+     </head>
+     <body ng-app="MySimpleEditor">
+       <h1>Hello World!</h1>
+       <div ng-controller="MyController">
+         parameter: {{sample}}
+       </div>
+     </body>
+</html>
