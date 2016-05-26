@@ -248,6 +248,10 @@
 
     // Initialization
     function init() {
+<<<<<<< HEAD
+=======
+		debugger;
+>>>>>>> refs/remotes/origin/master
         if (!isBrowser || api.initialized) {
             return;
         }

@@ -9,7 +9,11 @@ var rangySelection = fs.readFileSync("./public/js/rangy-selectionsaverestore.js"
 var script = fs.readFileSync("./public/js/script.js", "utf-8");
 
 jsdom.env({
+<<<<<<< HEAD
   file: 'C:/Users/Administrator/Documents/skywalker/JsdomLearn/public/test4.html',
+=======
+  file: 'C:/Users/lma5/Documents/Work Related/JsdomLearn-master/JsdomLearn-master/public/test4.html',
+>>>>>>> refs/remotes/origin/master
   src: [angular, textAngularSanitize, textAngular, textAngularSetup, rangyCore, rangySelection, script],
   features: {
     FetchExternalResources   : ['script'],

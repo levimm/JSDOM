@@ -181,7 +181,11 @@ function minErr(module, ErrorConstructor) {
  *
  * <div doc-module-components="ng"></div>
  */
+<<<<<<< HEAD
 
+=======
+debugger;
+>>>>>>> refs/remotes/origin/master
 var REGEX_STRING_REGEXP = /^\/(.+)\/([a-z]*)$/;
 
 // The name of a form control's ValidityState property.

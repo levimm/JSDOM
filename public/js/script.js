@@ -6,12 +6,20 @@ app.controller('MyController', ['$scope', function($scope){
     }]);*/
 
 (function() {
+<<<<<<< HEAD
+=======
+	debugger;
+>>>>>>> refs/remotes/origin/master
 	  angular
 		    .module("MySimpleEditor", ['textAngular'])
 		    .controller("MyController", MyController);
     
 
 	  function MyController($scope) {
+<<<<<<< HEAD
+=======
+			debugger;
+>>>>>>> refs/remotes/origin/master
 		    $scope.sample='abcdefg';
 	  };
 })();
